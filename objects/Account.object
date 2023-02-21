@@ -238,6 +238,18 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Account_Profile__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Profile</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Business_Profile</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>AnnualRevenue</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
